@@ -1,0 +1,55 @@
+.cards {
+    height: 200px;
+}
+
+.characters {
+    width: 80%;
+    height: 150px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.order-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-title-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text span {
+    font-weight: bolder;
+}
+
+.hr-top {
+    width: 85%;
+    align-self: center;
+}
+
+.card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-span {
+    font-weight: 400;
+}
+
+.amount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

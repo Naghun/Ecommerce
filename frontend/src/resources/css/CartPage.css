@@ -1,0 +1,19 @@
+.cart-image {
+    width: 200px;
+}
+
+.cart-card {
+    height: 200px;
+}
+
+.cart-button {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: rgb(245, 49, 49);
+}
